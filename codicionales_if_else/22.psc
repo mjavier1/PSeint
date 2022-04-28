@@ -11,23 +11,25 @@ Algoritmo sin_titulo
 	si p1 >p2
 		si p2>p3
 			total=p2+p3
-		FinSi
+		
 	sino 
 		si p3>p1 Entonces
-			total=p2+p2;
+			total=p1+p2;
 		sino 
 			total= p2+p3
 			
 		FinSi
 	FinSi
-SiNo
+SiNo 
 	si p2>p3 Entonces
 		total=p1+p3;
 	SiNo
 		total=p1+p2
 		
 	FinSi
+fin si 
+Escribir "El total $", total;
 
-
-
+	
+	
 FinAlgoritmo
