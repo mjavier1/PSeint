@@ -8,53 +8,54 @@ Algoritmo sin_titulo
 	
 	
 	// Mientras 
-		
-		// Mientras ejecuta una secuencia de instrucciones mientras una condición sea verdadera. 
-			//	Mientras <condición> Hacer 
-					//<instrucciones> 
-			//	FinMientras 
+	
+	// Mientras ejecuta una secuencia de instrucciones mientras una condición sea verdadera. 
+	//	Mientras <condición> Hacer 
+	//<instrucciones> 
+	//	FinMientras 
 	
 	//i=1
 	//Mientras i<=10 Hacer
 	//	Escribir i;
-		//m=i*2
-//		i=i+1
-		
-		//Escribir m;
+	//m=i*2
+	//		i=i+1
+	
+	//Escribir m;
 	//FinMientras
 	
 	
 	
 	
-
+	
 	
 	//Bucle for 
 	//Un bucle For nos permite repetir instrucciones un numero fijo de veces que indicamos con una serie de condiciones sobre una variable iteradora.
 	//Se establece la variable iteradora, el valor inicial, la condicion que debe cumplir la variable iteradora para ejecutar el bucle y una forma de incremento para la variable iteradora
-				//	Para <variable> <- <inicial> Hasta <final> Con Paso <paso> Hacer 
-			//			<instrucciones> 
+	//	Para <variable> <- <inicial> Hasta <final> Con Paso <paso> Hacer 
+	//			<instrucciones> 
 	//				FinPara 
 	
-	
-	para i =0 Hasta  10 con paso 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-					
-					
-					
+	//for igual 
+	para i =0 Hasta  10 con paso 1 Hacer 
+		
+		Escribir i;
+		
+		
+		
+		
+		fin para 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 FinAlgoritmo
