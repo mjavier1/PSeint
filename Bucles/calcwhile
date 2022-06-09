@@ -1,0 +1,40 @@
+Algoritmo sin_titulo
+	//Nando con delfines es una atraccion de six flags mexico, que tiene un costo de $1800.00
+	//adulto y $1200.00 nino , si es adulto mayor se descuenta el 40 %, si el promedio del nino de su ultimo ciclo escolar es 9 o mas le hacen un descuento del 50% y le regalan
+	//una foto abrazando una foca.
+	padulto=1800;
+	pnino=1200;
+	pmayor=padulto*0.6;
+	pninodes=pnino*0.5;
+	Escribir "Ingrese la cantidad de adultos"
+	Leer adultos;
+	Escribir "Cuantos son adultos mayores?";
+	Leer mayores;
+	adultos=adultos-mayores;
+	totaladultos=(padulto*adultos)+(padulto *mayores);
+	Escribir "Ingrese la cantidad de nino"
+	Leer ninos;
+	i=1;
+	ninodesc=0;
+	Mientras i<=ninos Hacer
+		Escribir "Ingrese el promedio escolar del nino",i
+		Leer promedio;
+		si promedio>=9 Entonces
+			ninodesc = ninodesc+1;
+			
+			
+		FinSi
+		i=i+1
+		
+	FinMientras
+	ninos=ninos-ninodesc;
+	totalnino=(pnino*nino)+(pnino+ninodesc);
+	total = totaladultos+totalnino;
+	Escribir "por",adultos,"adultos y por ",mayores,"adultos mayores el precio es de $",totaladultos;
+	Escribir "por",nino,"ninos y por",ninodesc,"ninos con descuento el precio es de $",totalnino;
+	Escribir ninodesc," puede tomarse una foto con la foca"
+	Escribir "El total seria de $",total;
+	
+	
+	
+FinAlgoritmo
